@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://getbootstrap.com/examples/dashboard/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+    <script src="js/modernizr.custom.js"></script>
+
+    <title>Tabela de visitas</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+
+  <style id="holderjs-style" type="text/css"></style></head>
+
+  <body>
+      
+    <div class="container-fluid">
+        
+        
+      <div class="row">
+          
+        
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Lista de clientes Sauna 520</h1>
+
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Cliente</th>
+                  <th>Número de Cadastro</th>
+                  <th>Número de visitas <span class="detalhe-visita"> - na 6ª visita o cliente ganha desconto</span></th>
+                  <th>Desconto</th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1,001</td>
+                  <td>Lorem</td>
+                  <td>ipsum</td>
+                    <td><button type="button" >Usar desconto</button></td>
+                  
+                </tr>
+                <tr>
+                  <td>1,002</td>
+                  <td>amet</td>
+                  <td>consectetur</td>
+                  
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>Integer</td>
+                  <td>nec</td>
+                    <td><button type="button" >Usar desconto</button></td>
+                  
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+       <button id="trigger-overlay" type="button">Open Overlay</button>
+      
+     
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./table_files/jquery.min.js"></script>
+    <script src="./table_files/bootstrap.min.js"></script>
+    <script src="./table_files/docs.min.js"></script>
+      
+       <div class="overlay overlay-slidedown">
+			<button type="button" class="overlay-close">Close</button>
+			<div class="mensagem-desconto">
+                <p>Este cliente está na sua 6ª visita na Sauna 520. Deseja usar o cupom de desconto agora?</p>
+                
+                <div class="posicao-botoes">
+                    <td><button type="button" >Usar desconto</button></td>
+                    <td><button type="button" >Guardar desconto</button></td>
+                </div>
+           
+           </div>
+		</div>
+  <script src="js/classie.js"></script>
+		<script src="js/demo1.js"></script>
+
+</body></html>
